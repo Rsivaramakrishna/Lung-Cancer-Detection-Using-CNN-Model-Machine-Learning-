@@ -1,93 +1,46 @@
-# Lung-Cancer-Detection-Using-CNN-Model-Machine-Learning-
-🧠 Lung Cancer Detection Using CNN
-This project leverages deep learning to classify lung cancer histopathological images using a Convolutional Neural Network (CNN). It utilizes the LC25000 dataset, comprising 25,000 high-resolution images across five classes, including lung adenocarcinoma, lung squamous cell carcinoma, and benign lung tissue.​
-Kaggle
-+8
-arXiv
-+8
-Kaggle
-+8
+# 🧠 Lung Cancer Detection Using CNN
 
-📂 Dataset
-Name: Lung and Colon Cancer Histopathological Images (LC25000)
+This project uses a Convolutional Neural Network (CNN) to detect lung cancer from histopathological images. 🧬 It is built on a deep learning approach using TensorFlow/Keras and is trained on the LC25000 dataset.
 
-Source: Kaggle Dataset
+---
 
-Details:
+## 📁 Dataset
 
-25,000 images (768x768 pixels)
+- **Name**: Lung and Colon Cancer Histopathological Images (LC25000)
+- **Source**: [Kaggle Dataset 🔗](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+- **Details**:
+  - 25,000 high-resolution images (768x768 pixels)
+  - 5 classes:
+    - Colon adenocarcinoma
+    - Benign colonic tissue
+    - Lung adenocarcinoma
+    - Lung squamous cell carcinoma
+    - Benign lung tissue
+  - Images are de-identified and HIPAA compliant
 
-5 classes:
+---
 
-Colon adenocarcinoma
+## 🛠️ Model Architecture
 
-Benign colonic tissue
+- Built using **Convolutional Neural Networks**
+- Developed with **TensorFlow/Keras**
+- Key steps:
+  - Data preprocessing 🧹
+  - Data augmentation 🔁
+  - CNN model training 🎯
+  - Evaluation using accuracy and loss metrics 📊
 
-Lung adenocarcinoma
+---
 
-Lung squamous cell carcinoma
+## 📈 Results
 
-Benign lung tissue
+- Achieved high classification accuracy in distinguishing between cancerous and non-cancerous lung tissue 🏥
+- Demonstrated potential of CNNs in histopathology-based cancer diagnosis 🧪
 
-De-identified and HIPAA compliant​
-Kaggle
-+8
-arXiv
-+8
-Kaggle
-+8
-Kaggle
-+1
-Kaggle
-+1
+---
 
-🛠️ Model Overview
-Architecture: Deep CNN
+## 🚀 Getting Started
 
-Framework: TensorFlow / Keras
-
-Features:
-
-Data preprocessing and augmentation
-
-Model training and validation
-
-Performance evaluation with accuracy and loss metrics​
-
-📈 Results
-Achieved high classification accuracy in distinguishing between cancerous and non-cancerous lung tissues.
-
-Demonstrated the efficacy of CNNs in medical image analysis for cancer detection.​
-
-🚀 Getting Started
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/lung-cancer-detection-cnn.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd lung-cancer-detection-cnn
-Install the required dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Download the dataset from Kaggle and place it in the data/ directory.
-
-Run the training script:
-
-bash
-Copy
-Edit
-python train_model.py
-📄 License
-This project is licensed under the MIT License.​
-
-For more details, refer to the original Kaggle notebook: Lung Cancer Detection by CNN​
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/lung-cancer-detection-cnn.git
